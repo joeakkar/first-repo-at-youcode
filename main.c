@@ -4,7 +4,7 @@
 
 int main()
 {
-    char n[50], p[50], s[20];
+    char n[50], p[50], s[2];
     int age, nt;
 
     printf("Veuillez entrer votre Nom :\n");
@@ -24,10 +24,10 @@ int main()
 
     printf("\n");
     printf("Votre Nom est : %s\n", n);
-    printf("Votre Prénom est : %s\n", p);
+    printf("Votre Prenom est : %s\n", p);
     printf("Votre Age est : %d\n", age);
     printf("Votre Sexe est : %s\n", s);
-    printf("Votre Numéro de téléphone est : %d\n", nt);
+    printf("Votre Numero de telephone est : %d\n", nt);
 
     return 0;
 }
